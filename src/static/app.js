@@ -520,8 +520,6 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
 
     // Create social sharing buttons
-    const shareText = `Check out ${name} at Mergington High School! ${details.description}`;
-    const shareUrl = window.location.href;
     const socialShareButtons = `
       <div class="social-share-buttons">
         <span class="share-label">Share:</span>
@@ -876,7 +874,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const mailtoUrl = `mailto:?subject=${encodeURIComponent(
           shareSubject
         )}&body=${encodeURIComponent(emailBody)}`;
-        window.location.href = mailtoUrl;
+        window.open(mailtoUrl);
         showMessage("Opening email client to share activity...", "info");
         break;
 
