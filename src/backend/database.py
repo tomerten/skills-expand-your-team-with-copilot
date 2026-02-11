@@ -52,7 +52,8 @@ initial_activities = {
             "end_time": "08:00"
         },
         "max_participants": 20,
-        "participants": ["emma@mergington.edu", "sophia@mergington.edu"]
+        "participants": ["emma@mergington.edu", "sophia@mergington.edu"],
+        "difficulty_level": "Beginner"
     },
     "Morning Fitness": {
         "description": "Early morning physical training and exercises",
@@ -118,7 +119,8 @@ initial_activities = {
             "end_time": "08:00"
         },
         "max_participants": 10,
-        "participants": ["james@mergington.edu", "benjamin@mergington.edu"]
+        "participants": ["james@mergington.edu", "benjamin@mergington.edu"],
+        "difficulty_level": "Advanced"
     },
     "Debate Team": {
         "description": "Develop public speaking and argumentation skills",
@@ -140,7 +142,8 @@ initial_activities = {
             "end_time": "14:00"
         },
         "max_participants": 15,
-        "participants": ["ethan@mergington.edu", "oliver@mergington.edu"]
+        "participants": ["ethan@mergington.edu", "oliver@mergington.edu"],
+        "difficulty_level": "Intermediate"
     },
     "Science Olympiad": {
         "description": "Weekend science competition preparation for regional and state events",
@@ -151,7 +154,8 @@ initial_activities = {
             "end_time": "16:00"
         },
         "max_participants": 18,
-        "participants": ["isabella@mergington.edu", "lucas@mergington.edu"]
+        "participants": ["isabella@mergington.edu", "lucas@mergington.edu"],
+        "difficulty_level": "Advanced"
     },
     "Sunday Chess Tournament": {
         "description": "Weekly tournament for serious chess players with rankings",
